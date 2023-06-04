@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+}
+.logo{
+    height: 75px;
+    width: 87px;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.navbar ul{
+display: inline-block;
+margin-top: 10px;
+}
+.navbar ul li{
+    display: inline-block;
+    /* margin-top: -70px; */
+    margin-left: 185px;
+    position: relative;
+    top: -74px;
+    left: 0px;
+}
+.navbar ul li a{
+color: white;
+text-decoration: none;
+font-size: 50px;
+}
+.navbar ul li a:hover{
+    color: black;
+    background-color: white;
+ }
+nav div input{
+    height: 33px;
+    width: 190px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    top: -119px;
+    left: 1530px;
+}
+nav div input::placeholder{
+    font-family:'Roboto Condensed', sans-serif;;
+}
+nav div button{
+    height: 30px;
+    width: 60px;
+    border: 5px solid white;
+    border-radius: 20px;
+    position: relative;
+    top: -119px;
+    left: 1535px;
+}
+nav{
+    height: 108px;
+width: 1920px;
+background-color: rgb(0, 0, 0);
+background-image: url(./images/back.png);
+z-index: -1;
+}
+.jj{
+    width: 1400px;
+margin-top: 58px;
+margin-left: 267px;
+border-radius: 10px;
+}
+.heading h1{
+    font-size: 100px;
+    color:white;
+    margin-top: -750px;
+    margin-left: 570px;
+}
+.heading h2{
+    font-size: 86px;
+    color: white;
+    margin-top: 0px;
+    margin-left: 640px;
+}
+.heading h3{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+    margin-left: 745px;
+}
+.player p{
+    font-size: 50px;
+color: white;
+margin-top: 23px;
+margin-left: 290px;
+}
+.video video{
+height: 241px;
+width: 543px;
+margin-top: 17px;
+margin-left: 245px;
+}
+.highlight p{
+    font-size: 45px;
+    color: rgb(20, 169, 9);
+    margin-top: 12px;
+    margin-left: 300px;
+}
+form{
+    color:white;
+    text-align:center;
+    font-size: 45px;
+}
+input::placeholder{
+    font-size: 15px;
+}
+input{
+    height: 30px;
+    width: 175px;
+}
+div i{
+    font-size: 191px;
+    /* margin-top: 50px; */
+    position: absolute;
+    top: 760px;
+    margin-left: 50px;
+}
+form div button{
+    height: 60px;
+    width: 111px;
+    background-image:url(./images/back.png);
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+}
+div .scroll{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: -240px;
+    left: 62px;
+}
+div .scroll2{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: -235px;
+    left: 62px;
+}
+fieldset{
+    height: 590px;
+    width: 1896px;
+}
+
+
+
+
